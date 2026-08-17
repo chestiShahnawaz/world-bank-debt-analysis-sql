@@ -1,6 +1,6 @@
 {
   "project": "world-bank-debt-analysis-sql",
-  "current_step": "00_download_data",
+  "current_step": "01_schema_setup",
   "status": "ready",
   "config": {
     "dataset_url": "https://raw.githubusercontent.com/datasets/world-bank-debt/master/data/international_debt.csv",
@@ -9,6 +9,12 @@
     "sql_output_dir": "sql/",
     "metrics_output_dir": "outputs/"
   },
-  "history": {},
+  "history": {
+    "00_download_data": {
+      "status": "completed",
+      "completed_at": "2026-08-17",
+      "notes": "Dataset present at data/international_debt.csv (221213 bytes, 2358 data rows)"
+    }
+  },
   "key_metrics": {}
 }
