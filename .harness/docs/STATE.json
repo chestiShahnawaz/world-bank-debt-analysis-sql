@@ -1,0 +1,14 @@
+{
+  "project": "world-bank-debt-analysis-sql",
+  "current_step": "00_download_data",
+  "status": "ready",
+  "config": {
+    "dataset_url": "https://raw.githubusercontent.com/datasets/world-bank-debt/master/data/international_debt.csv",
+    "raw_data_path": "data/international_debt.csv",
+    "target_table": "international_debt",
+    "sql_output_dir": "sql/",
+    "metrics_output_dir": "outputs/"
+  },
+  "history": {},
+  "key_metrics": {}
+}
