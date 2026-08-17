@@ -1,6 +1,6 @@
 {
   "project": "world-bank-debt-analysis-sql",
-  "current_step": "01_schema_setup",
+  "current_step": "02_core_queries",
   "status": "ready",
   "config": {
     "dataset_url": "https://raw.githubusercontent.com/datasets/world-bank-debt/master/data/international_debt.csv",
@@ -14,7 +14,16 @@
       "status": "completed",
       "completed_at": "2026-08-17",
       "notes": "Dataset present at data/international_debt.csv (221213 bytes, 2358 data rows)"
+    },
+    "01_schema_setup": {
+      "status": "completed",
+      "completed_at": "2026-08-17",
+      "notes": "Ingested into DuckDB (data/world_bank_debt.duckdb); 2357 rows, 0 null debt, 0 null country_code"
     }
   },
-  "key_metrics": {}
+  "key_metrics": {
+    "total_rows": 2357,
+    "null_debt_count": 0,
+    "null_country_code_count": 0
+  }
 }
