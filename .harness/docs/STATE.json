@@ -1,6 +1,6 @@
 {
   "project": "world-bank-debt-analysis-sql",
-  "current_step": "02_core_queries",
+  "current_step": "03_deep_dive_sql",
   "status": "ready",
   "config": {
     "dataset_url": "https://raw.githubusercontent.com/datasets/world-bank-debt/master/data/international_debt.csv",
@@ -19,11 +19,21 @@
       "status": "completed",
       "completed_at": "2026-08-17",
       "notes": "Ingested into DuckDB (data/world_bank_debt.duckdb); 2357 rows, 0 null debt, 0 null country_code"
+    },
+    "02_core_queries": {
+      "status": "completed",
+      "completed_at": "2026-08-17",
+      "notes": "7 core metrics queries executed; outputs in outputs/02_core_metrics.md"
     }
   },
   "key_metrics": {
     "total_rows": 2357,
     "null_debt_count": 0,
-    "null_country_code_count": 0
+    "null_country_code_count": 0,
+    "distinct_countries": 124,
+    "distinct_indicators": 25,
+    "total_international_debt": 3079734487675.7915,
+    "highest_debt_country": "China",
+    "highest_debt_country_total": 285793494734.2
   }
 }
