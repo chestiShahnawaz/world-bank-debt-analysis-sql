@@ -1,6 +1,6 @@
 {
   "project": "world-bank-debt-analysis-sql",
-  "current_step": "03_deep_dive_sql",
+  "current_step": "04_case_study",
   "status": "ready",
   "config": {
     "dataset_url": "https://raw.githubusercontent.com/datasets/world-bank-debt/master/data/international_debt.csv",
@@ -24,6 +24,11 @@
       "status": "completed",
       "completed_at": "2026-08-17",
       "notes": "7 core metrics queries executed; outputs in outputs/02_core_metrics.md"
+    },
+    "03_deep_dive_sql": {
+      "status": "completed",
+      "completed_at": "2026-08-18",
+      "notes": "Pareto concentration, top debt type by nation, and indicator variance analysis in outputs/03_advanced_analytics.md"
     }
   },
   "key_metrics": {
